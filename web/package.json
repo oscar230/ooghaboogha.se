@@ -1,6 +1,8 @@
 {
-  "name": "svelte-app",
-  "version": "1.0.0",
+  "name": "ooghaboogha.se",
+  "version": "0.1.0",
+  "description": "Website in Svelte for ooghaboogha.se, production ran using Docker.",
+  "author": "Felix Wetell, Oscar Andersson, Rasmus Björklund",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
