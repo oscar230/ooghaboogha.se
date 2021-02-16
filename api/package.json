@@ -1,0 +1,13 @@
+{
+    "name": "ooghaboogha.se_api",
+    "version": "0.1.0",
+    "description": "Backend API in express for ooghaboogha.se, production ran using Docker.",
+    "author": "Felix Wetell, Oscar Andersson, Rasmus Björklund",
+    "scripts": {
+    },
+    "devDependencies": {
+    },
+    "dependencies": {
+    }
+  }
+  
