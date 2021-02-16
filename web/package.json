@@ -1,5 +1,5 @@
 {
-  "name": "ooghaboogha.se",
+  "name": "ooghaboogha.se_web",
   "version": "0.1.0",
   "description": "Website in Svelte for ooghaboogha.se, production ran using Docker.",
   "author": "Felix Wetell, Oscar Andersson, Rasmus Björklund",
