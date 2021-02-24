@@ -5,7 +5,7 @@
     "author": "Felix Wetell, Oscar Andersson, Rasmus Björklund",
     "scripts": {
         "dev": "concurrently --kill-others \"npm run dev-api\" \"npm run dev-web\"",
-        "dev-api": "(cd api; echo 'NOT IMPLEMENTED!')",
+        "dev-api": "(cd api; npm run start)",
         "dev-web": "(cd web; npm run dev)"
     },
     "devDependencies": {
