@@ -72,8 +72,5 @@ export default {
 	],
 	watch: {
 		clearScreen: false,
-		chokidar: {
-			usePolling: true
-        }
 	}
 };
