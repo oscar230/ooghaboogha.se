@@ -4,8 +4,8 @@
     "description": "Backend and frontend for ooghaboogha.se",
     "author": "Felix Wetell, Oscar Andersson, Rasmus Björklund",
     "scripts": {
-        "dev": "concurrently --kill-others \"npm run dev-api\" \"npm run dev-web\"",
-        "dev-api": "(cd api; npm run start)",
+        "dev": "concurrently --kill-others \"npm run dev-web\" \"npm run dev-api\"",
+        "dev-api": "(cd api; nodemon ./bin/www)",
         "dev-web": "(cd web; npm run dev)"
     },
     "devDependencies": {
