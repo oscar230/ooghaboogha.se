@@ -4,13 +4,14 @@
     "description": "Backend and frontend for ooghaboogha.se",
     "author": "Felix Wetell, Oscar Andersson, Rasmus Björklund",
     "scripts": {
-        "dev": "echo 'NOT IMPLEMENTED!'",
+        "dev": "concurrently --kill-others \"npm run dev-api\" \"npm run dev-web\"",
         "dev-api": "(cd api; echo 'NOT IMPLEMENTED!')",
         "dev-web": "(cd web; npm run dev)"
     },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^17.0.0",
         "@rollup/plugin-node-resolve": "^11.0.0",
+        "concurrently": "^6.0.0",
         "rollup": "^2.3.4",
         "rollup-plugin-css-only": "^3.1.0",
         "rollup-plugin-livereload": "^2.0.0",
@@ -20,6 +21,9 @@
     },
     "dependencies": {
         "express": "^4.17.1",
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "morgan": "~1.9.1",
         "sirv-cli": "^1.0.0"
     }
 }
